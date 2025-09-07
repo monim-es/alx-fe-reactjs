@@ -7,7 +7,7 @@ function MainContent() {
       minHeight: '200px'
     }}>
       <p style={{ fontSize: '18px', color: '#333' }}>
-        Welcome to my React app showcasing my favorite cities!
+        I love to visit New York, Paris, and Tokyo.
       </p>
     </main>
   );
