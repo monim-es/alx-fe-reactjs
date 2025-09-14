@@ -1,28 +1,31 @@
-import { Link } from 'react-router-dom'
-import { useRecipeStore } from '../store/recipeStore'
+// RecipeList.jsx
+import { useRecipeStore } from './recipeStore';
 
 const RecipeList = () => {
-  const recipes = useRecipeStore((state) => state.recipes)
-  const filteredRecipes = useRecipeStore((state) => state.filteredRecipes)
-  const searchTerm = useRecipeStore((state) => state.searchTerm)
-
-  const displayRecipes = searchTerm ? filteredRecipes : recipes
+  const recipes = useRecipeStore((state) => state.recipes);
+  const favorites = useRecipeStore((state) => state.favorites);
+  const addFavorite = useRecipeStore((state) => state.addFavorite);
+  const removeFavorite = useRecipeStore((state) => state.removeFavorite);
 
   return (
     <div>
-      <h2>Recipe List</h2>
-      {displayRecipes.length === 0 ? (
-        <p>No recipes found.</p>
-      ) : (
-        displayRecipes.map((recipe) => (
+      <h2>All Recipes</h2>
+      {recipes.map((recipe) => {
+        const isFav = favorites.includes(recipe.id);
+        return (
           <div key={recipe.id}>
             <h3>{recipe.title}</h3>
-            <Link to={`/recipe/${recipe.id}`}>View Details</Link>
+            <p>{recipe.description}</p>
+            {isFav ? (
+              <button onClick={() => removeFavorite(recipe.id)}>Unfavorite</button>
+            ) : (
+              <button onClick={() => addFavorite(recipe.id)}>Favorite</button>
+            )}
           </div>
-        ))
-      )}
+        );
+      })}
     </div>
-  )
-}
+  );
+};
 
-export default RecipeList
+export default RecipeList;
