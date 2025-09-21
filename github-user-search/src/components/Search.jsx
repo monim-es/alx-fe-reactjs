@@ -6,7 +6,7 @@ function Search() {
   const [results, setResults] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-
+  // const test = fetchUserData
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
