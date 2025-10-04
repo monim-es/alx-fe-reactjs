@@ -17,12 +17,55 @@ const HomePage = () => {
       {/* Header */}
       <header className="bg-white shadow-md">
         <div className="container mx-auto px-4 py-6">
-          <h1 className="text-4xl font-bold text-gray-800 text-center">
-            Recipe Sharing Platform
-          </h1>
-          <p className="text-gray-600 text-center mt-2">
-            Discover and share amazing recipes from around the world
-          </p>
+          <div className="flex justify-between items-center">
+            <div>
+              <h1 className="text-4xl font-bold text-gray-800">
+                Recipe Sharing Platform
+              </h1>
+              <p className="text-gray-600 mt-2">
+                Discover and share amazing recipes from around the world
+              </p>
+            </div>
+            <Link
+              to="/add-recipe"
+              className="hidden md:flex items-center bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300"
+            >
+              <svg
+                className="w-5 h-5 mr-2"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M12 4v16m8-8H4"
+                />
+              </svg>
+              Add Recipe
+            </Link>
+          </div>
+          {/* Mobile Add Recipe Button */}
+          <Link
+            to="/add-recipe"
+            className="md:hidden mt-4 flex items-center justify-center bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300"
+          >
+            <svg
+              className="w-5 h-5 mr-2"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 4v16m8-8H4"
+              />
+            </svg>
+            Add Recipe
+          </Link>
         </div>
       </header>
 
@@ -50,10 +93,11 @@ const HomePage = () => {
                 <p className="text-gray-600 mb-4">
                   {recipe.summary}
                 </p>
-                <Link to={`/recipe/${recipe.id}`}>
-                <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded transition-colors duration-300">
+                <Link
+                  to={`/recipe/${recipe.id}`}
+                  className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded transition-colors duration-300"
+                >
                   View Recipe
-                </button>
                 </Link>
               </div>
             </div>
