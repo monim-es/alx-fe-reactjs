@@ -3,36 +3,162 @@
     "id": 1,
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/300",
+    "ingredients": [
+      "400g spaghetti",
+      "200g pancetta or bacon, diced",
+      "4 large eggs",
+      "100g Parmesan cheese, grated",
+      "2 cloves garlic, minced",
+      "Salt and black pepper to taste",
+      "Fresh parsley for garnish"
+    ],
+    "instructions": [
+      "Bring a large pot of salted water to boil and cook spaghetti according to package directions.",
+      "While pasta cooks, fry pancetta in a large skillet until crispy, about 5-7 minutes.",
+      "In a bowl, whisk together eggs, Parmesan cheese, and black pepper.",
+      "Drain pasta, reserving 1 cup of pasta water.",
+      "Add hot pasta to the skillet with pancetta and remove from heat.",
+      "Quickly stir in the egg mixture, adding pasta water as needed to create a creamy sauce.",
+      "Serve immediately with extra Parmesan and parsley."
+    ]
   },
   {
     "id": 2,
     "title": "Chicken Tikka Masala",
     "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/300",
+    "ingredients": [
+      "500g boneless chicken, cubed",
+      "1 cup yogurt",
+      "2 tbsp tikka masala spice blend",
+      "3 tbsp vegetable oil",
+      "1 large onion, diced",
+      "3 cloves garlic, minced",
+      "1 tbsp ginger, grated",
+      "400g canned tomatoes",
+      "1 cup heavy cream",
+      "Fresh cilantro for garnish"
+    ],
+    "instructions": [
+      "Marinate chicken in yogurt and half the tikka masala spices for at least 1 hour.",
+      "Grill or pan-fry marinated chicken until cooked through. Set aside.",
+      "Heat oil in a large pan and sauté onions until golden brown.",
+      "Add garlic and ginger, cook for 1 minute until fragrant.",
+      "Add remaining tikka masala spices and cook for 30 seconds.",
+      "Add canned tomatoes and simmer for 10 minutes.",
+      "Stir in cream and cooked chicken. Simmer for 5 more minutes.",
+      "Garnish with cilantro and serve with rice or naan bread."
+    ]
   },
   {
     "id": 3,
     "title": "Caesar Salad",
     "summary": "A green salad of romaine lettuce and croutons dressed with lemon juice, olive oil, egg, Worcestershire sauce, anchovies, garlic, Dijon mustard, Parmesan cheese, and black pepper.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/300",
+    "ingredients": [
+      "2 heads romaine lettuce, chopped",
+      "1 cup croutons",
+      "1/2 cup Parmesan cheese, shaved",
+      "4 anchovy fillets",
+      "2 cloves garlic",
+      "2 egg yolks",
+      "2 tbsp lemon juice",
+      "1 tsp Dijon mustard",
+      "1/2 cup olive oil",
+      "Worcestershire sauce to taste"
+    ],
+    "instructions": [
+      "In a food processor, blend anchovies, garlic, egg yolks, lemon juice, and Dijon mustard.",
+      "While blending, slowly drizzle in olive oil until emulsified.",
+      "Add Worcestershire sauce and season with salt and pepper.",
+      "In a large bowl, toss romaine lettuce with the dressing.",
+      "Add croutons and toss again.",
+      "Top with shaved Parmesan cheese and serve immediately."
+    ]
   },
   {
     "id": 4,
     "title": "Beef Tacos",
     "summary": "Seasoned ground beef served in crispy taco shells with lettuce, cheese, and salsa.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/300",
+    "ingredients": [
+      "500g ground beef",
+      "1 onion, diced",
+      "2 cloves garlic, minced",
+      "2 tbsp taco seasoning",
+      "8 taco shells",
+      "1 cup shredded lettuce",
+      "1 cup shredded cheddar cheese",
+      "1 cup salsa",
+      "Sour cream for serving"
+    ],
+    "instructions": [
+      "In a large skillet, cook ground beef over medium-high heat until browned.",
+      "Add diced onion and garlic, cook until softened.",
+      "Stir in taco seasoning and 1/4 cup water. Simmer for 5 minutes.",
+      "Warm taco shells according to package directions.",
+      "Fill each taco shell with seasoned beef.",
+      "Top with lettuce, cheese, and salsa.",
+      "Serve with sour cream on the side."
+    ]
   },
   {
     "id": 5,
     "title": "Chocolate Chip Cookies",
     "summary": "Classic homemade cookies loaded with chocolate chips, crispy on the outside and chewy on the inside.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/300",
+    "ingredients": [
+      "2 1/4 cups all-purpose flour",
+      "1 tsp baking soda",
+      "1 tsp salt",
+      "1 cup butter, softened",
+      "3/4 cup granulated sugar",
+      "3/4 cup brown sugar",
+      "2 large eggs",
+      "2 tsp vanilla extract",
+      "2 cups chocolate chips"
+    ],
+    "instructions": [
+      "Preheat oven to 375°F (190°C).",
+      "In a bowl, whisk together flour, baking soda, and salt.",
+      "In a large bowl, cream together butter and both sugars until fluffy.",
+      "Beat in eggs and vanilla extract.",
+      "Gradually stir in flour mixture until just combined.",
+      "Fold in chocolate chips.",
+      "Drop rounded tablespoons of dough onto ungreased baking sheets.",
+      "Bake for 9-11 minutes until golden brown.",
+      "Cool on baking sheet for 2 minutes, then transfer to wire rack."
+    ]
   },
   {
     "id": 6,
     "title": "Vegetable Stir Fry",
     "summary": "A colorful mix of fresh vegetables stir-fried in a savory sauce, served over rice.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/300",
+    "ingredients": [
+      "2 cups broccoli florets",
+      "1 red bell pepper, sliced",
+      "1 yellow bell pepper, sliced",
+      "1 cup snap peas",
+      "2 carrots, julienned",
+      "3 tbsp vegetable oil",
+      "3 cloves garlic, minced",
+      "1 tbsp ginger, grated",
+      "3 tbsp soy sauce",
+      "1 tbsp oyster sauce",
+      "1 tsp sesame oil",
+      "Cooked rice for serving"
+    ],
+    "instructions": [
+      "Heat vegetable oil in a large wok or skillet over high heat.",
+      "Add garlic and ginger, stir-fry for 30 seconds.",
+      "Add broccoli and carrots, stir-fry for 3 minutes.",
+      "Add bell peppers and snap peas, stir-fry for 2 more minutes.",
+      "In a small bowl, mix soy sauce, oyster sauce, and sesame oil.",
+      "Pour sauce over vegetables and toss to coat.",
+      "Cook for 1 more minute until vegetables are tender-crisp.",
+      "Serve immediately over steamed rice."
+    ]
   }
 ]
