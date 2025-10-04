@@ -2,6 +2,7 @@
 export default {
   content: [
     "./index.html",
+    "./public/index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   darkMode: false, // or 'media' or 'class'
@@ -10,3 +11,5 @@ export default {
   },
   plugins: [],
 }
+
+// ./src/**/*.{js,jsx,ts,tsx}
