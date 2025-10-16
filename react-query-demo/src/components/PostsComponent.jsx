@@ -36,3 +36,6 @@ const PostsComponent = () => {
 };
 
 export default PostsComponent;
+
+
+// "cacheTime", "refetchOnWindowFocus", "keepPreviousData"
